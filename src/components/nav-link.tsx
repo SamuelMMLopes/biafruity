@@ -11,7 +11,7 @@ export function NavLink(props: NavLinkProps) {
     <Link
       data-active={actualPathname === props.href}
       {...props}
-      className="text-sm transition-colors hover:text-red-500 data-[active=true]:font-semibold data-[active=true]:text-red-500"
+      className="text-sm transition-colors data-[active=true]:font-semibold data-[active=true]:text-red-500 hover:text-red-500"
     />
   )
 }
